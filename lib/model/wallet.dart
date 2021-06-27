@@ -1,18 +1,30 @@
+import 'package:flutter/foundation.dart';
+import 'package:hive/hive.dart';
+
+part 'wallet.g.dart';
+
+@HiveType(typeId: 0)
 class Wallet {
+  @HiveField(0)
   List<String> mnemonic;
+  @HiveField(1)
   String secret;
+  @HiveField(2)
   String amount;
+  @HiveField(3)
   String pkh;
+  @HiveField(4)
   String password;
+  @HiveField(5)
   String email;
 
   Wallet({
-    this.mnemonic,
-    this.secret,
-    this.amount,
-    this.pkh,
-    this.password,
-    this.email,
+    @required this.mnemonic,
+    @required this.secret,
+    @required this.amount,
+    @required this.pkh,
+    @required this.password,
+    @required this.email,
   });
 
   Wallet.fromJson(Map<String, dynamic> json) {
