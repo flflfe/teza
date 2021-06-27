@@ -7,11 +7,17 @@ A minimalistic Tezos wallet that helps in storing and sending/receiving funds wi
 
 ## Screenshots
 
-![](screenshots/teza_4.png)
-![](screenshots/teza_5.png)
-![](screenshots/teza_6.png)
-![](screenshots/teza_3.png)
-![](screenshots/teza_2.png)
+<p align="center">
+  <img width="250" src="screenshots/teza_4.png" alt="teza" />
+  <img width="250" src="screenshots/teza_5.png" alt="teza" />
+  <img width="250" src="screenshots/teza_6.png" alt="teza" />
+</p>
+
+<p align="center">
+  <img width="250" src="screenshots/teza_3.png" alt="teza" />
+  <img width="250" src="screenshots/teza_2.png" alt="teza" />
+  <img width="250" src="screenshots/teza_1.png" alt="teza" />
+</p>
 
 ## License
 
