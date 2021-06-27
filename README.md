@@ -29,15 +29,15 @@ A minimalistic Tezos wallet that helps in storing and sending/receiving funds wi
 
 The following Flutter plugins are used to build the app:
 
-* tezster_dart
-* flutter_inappwebview
-* permission_handler
-* flutter_downloader
-* path_provider
-* shared_preferences
-* hive
-* hive_flutter
-* qr_flutter
+* [tezster_dart](https://pub.dev/packages/tezster_dart)
+* [flutter_inappwebview](https://pub.dev/packages/flutter_inappwebview)
+* [permission_handler](https://pub.dev/packages/permission_handler)
+* [flutter_downloader](https://pub.dev/packages/flutter_downloader)
+* [path_provider](https://pub.dev/packages/path_provider)
+* [shared_preferences](https://pub.dev/packages/shared_preferences)
+* [hive](https://pub.dev/packages/hive)
+* [hive_flutter](https://pub.dev/packages/hive_flutter)
+* [qr_flutter](https://pub.dev/packages/qr_flutter)
 
 ## License
 
