@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:hive/hive.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:teza/model/wallet.dart';
 import 'package:teza/res/palette.dart';
 import 'package:teza/screens/wallet_info_page.dart';
@@ -96,6 +98,13 @@ class _GenerateWalletPageState extends State<GenerateWalletPage> {
                   Wallet newWallet = Wallet.fromJson(jsonDecode(rawJson));
 
                   print(newWallet.amount);
+
+                  // Store in Hive
+                  Hive.box<Wallet>('wallet').add(newWallet);
+
+                  SharedPreferences prefs =
+                      await SharedPreferences.getInstance();
+                  await prefs.setBool('isAvailable', true);
 
                   Navigator.of(context).pushAndRemoveUntil(
                     MaterialPageRoute(

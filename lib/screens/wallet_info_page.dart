@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'package:teza/model/wallet.dart';
 import 'package:teza/res/palette.dart';
+import 'package:teza/screens/dashboard_page.dart';
 import 'package:teza/widgets/wallet_info_page/seed_widget.dart';
 
 class WalletInfoPage extends StatefulWidget {
@@ -136,7 +137,7 @@ class _WalletInfoPageState extends State<WalletInfoPage> {
                     padding: const EdgeInsets.only(
                       left: 8.0,
                       right: 8.0,
-                      bottom: 16.0,
+                      bottom: 32.0,
                     ),
                     child: Text(
                       '(can be imported to other devices later)',
@@ -159,7 +160,14 @@ class _WalletInfoPageState extends State<WalletInfoPage> {
                 child: Container(
                   width: double.maxFinite,
                   child: RaisedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushAndRemoveUntil(
+                        MaterialPageRoute(
+                          builder: (context) => DashboardPage(),
+                        ),
+                        ModalRoute.withName('/'),
+                      );
+                    },
                     color: Palette.primary,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),

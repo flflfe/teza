@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
 import 'package:teza/model/wallet.dart';
 import 'package:teza/res/palette.dart';
 
 class DashboardPage extends StatefulWidget {
-  final Wallet wallet;
-
-  const DashboardPage({@required this.wallet});
-
   @override
   _DashboardPageState createState() => _DashboardPageState();
 }
@@ -20,7 +17,9 @@ class _DashboardPageState extends State<DashboardPage> {
   void initState() {
     super.initState();
 
-    _wallet = widget.wallet;
+    final walletBox = Hive.box<Wallet>('wallet');
+    _wallet = walletBox.get(0);
+
     _amountString = (double.parse(_wallet.amount) / 1000000).toStringAsFixed(2);
   }
 
