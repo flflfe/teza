@@ -39,6 +39,12 @@ The following Flutter plugins are used to build the app:
 * [hive_flutter](https://pub.dev/packages/hive_flutter)
 * [qr_flutter](https://pub.dev/packages/qr_flutter)
 
+## App blueprint
+
+The initial sketch of the app:
+
+![](screenshots/teza_blueprint.png)
+
 ## License
 
 Copyright (c) 2021 Souvik Biswas
