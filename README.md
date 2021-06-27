@@ -39,6 +39,36 @@ The following Flutter plugins are used to build the app:
 * [hive_flutter](https://pub.dev/packages/hive_flutter)
 * [qr_flutter](https://pub.dev/packages/qr_flutter)
 
+## Usage
+
+You should have **Flutter (v1.22.6)** installed and properly set up on your system. Connect a physical device before running the app.
+
+> Currently tested on Android device
+
+1. Clone the repo:
+  
+  ```sh
+  git clone https://github.com/sbis04/teza.git
+  ```
+
+2. Navigate to the directory:
+
+  ```sh
+  cd teza
+  ```
+ 
+3. Get Flutter packages:
+
+  ```sh
+  flutter pub get
+  ```
+
+4. Run the app:
+
+  ```sh
+  flutter run
+  ```
+
 ## App blueprint
 
 The initial sketch of the app:
