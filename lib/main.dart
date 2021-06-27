@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Teza',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Montserrat',
       ),
+      debugShowCheckedModeBanner: false,
       home: InitialPage(),
     );
   }
