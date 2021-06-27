@@ -3,7 +3,27 @@
 A minimalistic Tezos wallet that helps in storing and sending/receiving funds with ease. It is secure as it is build totally on the Tezos platform. I have used Hive for the on-device storage as it is fast and helps in storing the data securely. Apart from this, it has a very minimalist UI.
 
 * [Presentation (PPT link)](https://docs.google.com/presentation/d/1A4P4dxH6GhLOAo_mi8qkC2shcA-qSGI618iUZ7HcaoE/edit)
-* [Video link](https://youtu.be/Gm5wR50yf6s) 
+* [Video link](https://youtu.be/Gm5wR50yf6s)
+
+## Tech stack
+
+* Flutter
+* Tezos (`tezster_dart`)
+* Hive (local database)
+
+## Plugins
+
+The following Flutter plugins are used to build the app:
+
+* tezster_dart
+* flutter_inappwebview
+* permission_handler
+* flutter_downloader
+* path_provider
+* shared_preferences
+* hive
+* hive_flutter
+* qr_flutter
 
 ## Screenshots
 
