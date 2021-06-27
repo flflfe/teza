@@ -5,6 +5,20 @@ A minimalistic Tezos wallet that helps in storing and sending/receiving funds wi
 * [Presentation (PPT link)](https://docs.google.com/presentation/d/1A4P4dxH6GhLOAo_mi8qkC2shcA-qSGI618iUZ7HcaoE/edit)
 * [Video link](https://youtu.be/Gm5wR50yf6s)
 
+## Screenshots
+
+<p align="center">
+  <img width="260" src="screenshots/teza_4.png" alt="teza" />
+  <img width="260" src="screenshots/teza_5.png" alt="teza" />
+  <img width="260" src="screenshots/teza_6.png" alt="teza" />
+</p>
+
+<p align="center">
+  <img width="260" src="screenshots/teza_3.png" alt="teza" />
+  <img width="260" src="screenshots/teza_2.png" alt="teza" />
+  <img width="260" src="screenshots/teza_1.png" alt="teza" />
+</p>
+
 ## Tech stack
 
 * Flutter
@@ -24,20 +38,6 @@ The following Flutter plugins are used to build the app:
 * hive
 * hive_flutter
 * qr_flutter
-
-## Screenshots
-
-<p align="center">
-  <img width="260" src="screenshots/teza_4.png" alt="teza" />
-  <img width="260" src="screenshots/teza_5.png" alt="teza" />
-  <img width="260" src="screenshots/teza_6.png" alt="teza" />
-</p>
-
-<p align="center">
-  <img width="260" src="screenshots/teza_3.png" alt="teza" />
-  <img width="260" src="screenshots/teza_2.png" alt="teza" />
-  <img width="260" src="screenshots/teza_1.png" alt="teza" />
-</p>
 
 ## License
 
