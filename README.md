@@ -7,7 +7,11 @@ Video link: https://youtu.be/Gm5wR50yf6s
 
 ## Screenshots
 
-
+![](screenshots/teza_4.png)
+![](screenshots/teza_5.png)
+![](screenshots/teza_6.png)
+![](screenshots/teza_3.png)
+![](screenshots/teza_2.png)
 
 ## License
 
