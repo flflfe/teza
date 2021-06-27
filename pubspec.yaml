@@ -28,6 +28,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   tezster_dart: ^2.1.1
+  flutter_webview_plugin: ^0.3.11
+  flutter_inappwebview: ^4.0.0
+  permission_handler: ^5.0.0
+  flutter_downloader: ^1.4.4
+  path_provider: ^1.6.5
 
 dev_dependencies:
   flutter_test:
