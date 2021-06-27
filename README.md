@@ -1,6 +1,13 @@
-# teza
+# teza - powered by Tezos
 
-A new Flutter project.
+A minimalistic Tezos wallet that helps in storing and sending/receiving funds with ease. It is secure as it is build totally on the Tezos platform. I have used Hive for the on-device storage as it is fast and helps in storing the data securely. Apart from this, it has a very minimalist UI.
+
+PPT link: https://docs.google.com/presentation/d/1A4P4dxH6GhLOAo_mi8qkC2shcA-qSGI618iUZ7HcaoE/edit
+Video link: https://youtu.be/Gm5wR50yf6s
+
+## Screenshots
+
+
 
 ## License
 
